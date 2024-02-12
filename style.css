@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* button */
+
+
+.btn1 {
+    background-color: #06A3DA;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.btn1:hover {
+    color: black;
+    background-color: #c6edfc;
+}
+
+
+.btn2 {
+    background-color: #06A3DA;
+    padding: 12px 50px;
+    color: white;
+    border: white;
+    font-weight: bold;
+    transition: 1s;
+
+
+}
+
+.btn2:hover {
+    color: black;
+    background-color: #c6edfc;
+}
+
+/* button end */
+
+/* carousel */
+.c-item {
+    height: 100vh;
+}
+
+.c-img {
+    height: 100%;
+    filter: brightness(0.5);
+}
+
+.c2 {
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+/* end */
+
+/* 3 boxes */
+
+.b1 {
+    background-color: #06A3DA;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    border: black 1px;
+}
+
+.b2 {
+    background-color: whitesmoke;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.e1 {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 30px;
+    border: black 1px;
+
+}
+
+/* cards */
+
+.card1 {
+    background-color: #EEF9FF;
+}
+
+div.rotate {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+}
+
+div.rotate {
+    width: 60px;
+    height: 60px;
+    background-color: #06A3DA;
+    transform: rotate(40deg);
+}
+
+.rotate:hover {
+    transform: rotate(70deg);
+    background-color: #a5c9d8;
+}
+
+.blue {
+
+    background-color: #06A3DA;
+    color: whitesmoke;
+}
+
+/* 3 Basic cards */
+
+.card3 {
+    background-color: #EEF9FF;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card9 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/*  transform img */
+
+
+.container2 {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2:hover .image {
+    opacity: 0.3;
+}
+
+.container2:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #06A3DA;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+/* zoom out blog img */
+
+.geeks {
+
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.geeks img {
+
+    transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+    transform: scale(1.2);
+}
+
+.card-link {
+    color: #06A3DA;
+}
+
+/* footer */
+
+.footer {
+    background-color: #091E3E;
+}
+
+.e2 {
+    background-color: #06A3DA;
+    color: white;
+    padding: 5rem;
+    
+}
+
+.content2 {
+    color: whitesmoke;
+    padding: 2rem;
+}
+
+.content2 a {
+    color: whitesmoke;
+    padding: 2rem;
+}
